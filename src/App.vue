@@ -1,13 +1,13 @@
 <script setup>
 import TheNavbar from './components/TheNavbar.vue';
-import Caroucel from './components/Caroucel.vue';
+import Carousel from './components/Carousel.vue';
 import TheCredits from './components/TheCredits.vue';
 </script>
 
 <template>
   <header>
     <TheNavbar />
-    <Caroucel />
+    <Carousel />
   </header>
   <main>
     <section class="lg:flex">
