@@ -75,7 +75,7 @@ import { ref } from '@vue/reactivity'
                 <p class="text-DarkGray my-4 text-sm">
                     {{ image.description }}
                 </p>
-                <a href="" class="group hover:cursor-pointer hover:text-DarkGray hover:transition-all py-4 uppercase text-lg font-bold tracking-[.8rem] flex items-center gap-x-5">
+                <a href="" class="group hover:cursor-pointer hover:text-DarkGray hover:transition-all py-4 uppercase font-bold tracking-[.8rem] flex items-center gap-x-5">
                     Shop now
                     <svg class="fill-black group-hover:fill-DarkGray" width="40" height="12" xmlns="http://www.w3.org/2000/svg">
                         <path d="M34.05 0l5.481 5.527h.008v.008L40 6l-.461.465v.063l-.062-.001L34.049 12l-.662-.668 4.765-4.805H0v-1h38.206l-4.82-4.86L34.05 0z" fill-rule="nonzero"/>
