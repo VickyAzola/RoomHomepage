@@ -1,7 +1,7 @@
 <script setup>
 import { ref } from '@vue/reactivity'
 
-    const caroucel = [
+    const carousel = [
         {
             id: 0, 
             urlMobile: '/mobile-image-hero-1.jpg',
@@ -42,7 +42,7 @@ import { ref } from '@vue/reactivity'
 </script>
 
 <template>
-    <section v-for="(image, index) in caroucel" :key="image.id">
+    <section v-for="(image, index) in carousel" :key="image.id">
         <div v-if="index == currentImage" class="lg:flex overflow-hidden">
             <div class="relative">
                 <img 
