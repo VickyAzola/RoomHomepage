@@ -29,7 +29,7 @@ import { ref } from '@vue/reactivity'
     ]
 
     const currentImage = ref(0)
-    const length = caroucel.length
+    const length = carousel.length
 
     function nextImg() {
         currentImage.value = currentImage.value === length - 1 ? 0 : currentImage.value + 1
