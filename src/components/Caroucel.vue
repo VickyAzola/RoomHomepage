@@ -56,12 +56,12 @@ import { ref } from '@vue/reactivity'
                     :alt=image.alt
                 />
                 <div class="absolute right-0 lg:right-[-8rem] bottom-0 z-10 bg-black">
-                    <button @click="nextImg" class="px-5 py-5 bg-black hover:bg-VeryDarkGray hover:transition-all">
+                    <button @click="nextImg" aria-label="next item" class="px-5 py-5 bg-black hover:bg-VeryDarkGray hover:transition-all">
                         <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg">
                             <path d="M13 0L1 12l12 12" stroke="#FFF" fill="none" fill-rule="evenodd"/>
                         </svg>
                     </button>
-                    <button @click="prevImg" class="px-5 py-5 bg-black hover:bg-VeryDarkGray hover:transition-all">
+                    <button @click="prevImg" aria-label="previous item" class="px-5 py-5 bg-black hover:bg-VeryDarkGray hover:transition-all">
                         <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg">
                             <path d="M1 0l12 12L1 24" stroke="#FFF" fill="none" fill-rule="evenodd"/>
                         </svg>
