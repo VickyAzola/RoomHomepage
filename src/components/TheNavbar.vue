@@ -21,7 +21,7 @@ function menuOpen() {
 </script>
 
 <template>
-    <div class="bg-transparent h-24 lg:h-32 fixed top-0 z-20 w-full md:flex md:pl-6">
+    <div class="bg-transparent h-24 fixed top-0 z-20 w-full md:flex md:pl-6 lg:pt-4">
 
         <div class="h-full px-8 flex items-center justify-center">
             <button @click="menuOpen()" class="absolute z-20 top-0 left-0 my-auto inset-y-0 pl-6 md:hidden">

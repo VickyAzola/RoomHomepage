@@ -5,15 +5,17 @@ import TheCredits from './components/TheCredits.vue';
 </script>
 
 <template>
+
   <header>
     <TheNavbar />
     <Carousel />
   </header>
+  
   <main>
-    <section class="lg:flex">
+    <section class="lg:flex lg:h-[35vh]">
       <img class="w-full lg:w-[30%]" src="/image-about-dark.jpg" alt="two black chairs and a round table">
       <div class="px-8 lg:px-12 py-12 lg:w-[40%] lg:m-auto">
-        <h2 class="font-bold uppercase tracking-[.17rem] text-xl">About our furniture</h2>
+        <h1 class="font-bold uppercase tracking-[.17rem] text-xl">About our furniture</h1>
         <p class="text-DarkGray mt-4 text-sm">
           Our multifunctional collection blends design and function to suit your individual taste.
           Make each room unique, or pick a cohesive theme that best express your interests and what
@@ -36,11 +38,5 @@ import TheCredits from './components/TheCredits.vue';
       linkGithub="https://github.com/VickyAzola/RoomHomepage"
     />
   </footer>
-  
-
 
 </template>
-
-<style scoped>
-
-</style>

@@ -51,17 +51,17 @@ import { ref } from '@vue/reactivity'
                     :alt=image.alt
                 />
                 <img 
-                    class="min-w-[60vw] hidden lg:block h-full" 
+                    class="min-w-[60vw] hidden lg:block h-[65vh] " 
                     :src=image.urlDesktop
                     :alt=image.alt
                 />
                 <div class="absolute right-0 lg:right-[-8rem] bottom-0 z-10 bg-black">
-                    <button @click="nextImg" aria-label="next item" class="px-5 py-5 bg-black hover:bg-VeryDarkGray hover:transition-all">
+                    <button @click="nextImg" class="px-5 py-5 bg-black hover:bg-VeryDarkGray hover:transition-all">
                         <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg">
                             <path d="M13 0L1 12l12 12" stroke="#FFF" fill="none" fill-rule="evenodd"/>
                         </svg>
                     </button>
-                    <button @click="prevImg" aria-label="previous item" class="px-5 py-5 bg-black hover:bg-VeryDarkGray hover:transition-all">
+                    <button @click="prevImg" class="px-5 py-5 bg-black hover:bg-VeryDarkGray hover:transition-all">
                         <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg">
                             <path d="M1 0l12 12L1 24" stroke="#FFF" fill="none" fill-rule="evenodd"/>
                         </svg>
@@ -75,7 +75,7 @@ import { ref } from '@vue/reactivity'
                 <p class="text-DarkGray my-4 text-sm">
                     {{ image.description }}
                 </p>
-                <a href="" class="group hover:cursor-pointer hover:text-DarkGray hover:transition-all py-4 uppercase font-bold tracking-[.8rem] flex items-center gap-x-5">
+                <a href="" class="group hover:cursor-pointer hover:text-DarkGray hover:transition-all py-4 uppercase text-lg font-bold tracking-[.8rem] flex items-center gap-x-5">
                     Shop now
                     <svg class="fill-black group-hover:fill-DarkGray" width="40" height="12" xmlns="http://www.w3.org/2000/svg">
                         <path d="M34.05 0l5.481 5.527h.008v.008L40 6l-.461.465v.063l-.062-.001L34.049 12l-.662-.668 4.765-4.805H0v-1h38.206l-4.82-4.86L34.05 0z" fill-rule="nonzero"/>
