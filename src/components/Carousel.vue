@@ -46,12 +46,12 @@ import { ref } from '@vue/reactivity'
         <div v-if="index == currentImage" class="lg:flex overflow-hidden">
             <div class="relative">
                 <img 
-                    class="min-w-[100vw] lg:hidden h-auto" 
+                    class="min-w-[100vw] md:hidden h-[50vh] " 
                     :src=image.urlMobile 
                     :alt=image.alt
                 />
                 <img 
-                    class="min-w-[60vw] hidden lg:block h-[65vh] " 
+                    class="min-w-[100vw] lg:min-w-[60vw] hidden md:block h-[65vh] " 
                     :src=image.urlDesktop
                     :alt=image.alt
                 />
